@@ -278,3 +278,21 @@ nav h1 a {
 #restaurant-hours td {
   color: #666;
 }
+
+@media screen and (max-width: 775px){
+	#restaurant-name {font-size: 15pt;}
+}
+
+@media screen and (max-width: 570px){
+	#restaurant-name {font-size: 10pt;}
+}
+
+@media screen and (min-width: 600px) {
+	.inside #map-container {height: calc(100vh - 100px);
+	max-height: none;
+position:fixed;
+width: calc(100vw - 350px);
+margin: 0;
+right: 0;
+top: 100px;}
+}
