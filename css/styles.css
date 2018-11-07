@@ -197,7 +197,6 @@ nav h1 a {
 
 /* ====================== Restaurant Details ====================== */
 .inside header {
-  position: fixed;
   top: 0;
   width: 100%;
   z-index: 1000;
@@ -322,6 +321,12 @@ nav h1 a {
 	    font-size: 17px;
 	    margin: 0;
 	    width: calc(50% - 80px);
+	}
+	.inside header {
+	  position: fixed;
+	  top: 0;
+	  width: 100%;
+	  z-index: 1000;
 	}
 
 }
