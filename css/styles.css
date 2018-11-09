@@ -44,9 +44,10 @@ article, aside, canvas, details, figcaption, figure, footer, header, hgroup, men
   color: #aaa;
   font-size: 8pt;
   letter-spacing: 1px;
-  padding: 25px;
+  padding: 5%;
   text-align: center;
   text-transform: uppercase;
+	width: 90%;
 }
 
 .flex-container {
@@ -217,7 +218,7 @@ nav h1 a {
 .inside #footer {
   bottom: 0;
   position: absolute;
-  width: 100%;
+  width: 90%;
 }
 #restaurant-name {
   color: #f18200;
@@ -251,8 +252,8 @@ nav h1 a {
 #restaurant-container, #reviews-container {
   border-bottom: 1px solid #d9d9d9;
   border-top: 1px solid #fff;
-  padding: 15px 40px 30px;
-  width: 100%;
+  padding: 15px 10% 30px;
+  width: 80%;
 }
 #reviews-container {
   padding: 30px 40px 80px;
