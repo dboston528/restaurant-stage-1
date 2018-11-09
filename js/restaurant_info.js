@@ -16,6 +16,8 @@ initMap = () => {
     if (error) { // Got an error!
       console.error(error);
     } else {
+      if (navigator.onLine) {
+        try {
       self.newMap = L.map('map', {
         center: [restaurant.latlng.lat, restaurant.latlng.lng],
         zoom: 16,
@@ -29,6 +31,11 @@ initMap = () => {
           'Imagery © <a href="https://www.mapbox.com/">Mapbox</a>',
         id: 'mapbox.streets'
       }).addTo(newMap);
+      DBHelper.mapMarkerForRestaurant(self.restaurant, self.newMap);
+} catch(error) {
+console.log("Map couldn't be initialized", error);
+  }
+}
       fillBreadcrumb();
       DBHelper.mapMarkerForRestaurant(self.restaurant, self.newMap);
     }
