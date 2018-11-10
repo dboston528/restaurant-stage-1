@@ -78,7 +78,7 @@ nav h1 a {
     background-color: #eee;
     font-size: 17px;
     margin: 0;
-    width: 100%;
+    width: 86%;
 		display: inline-flex;
 }
 
@@ -217,7 +217,7 @@ nav h1 a {
 } */
 .inside #footer {
   bottom: 0;
-  position: absolute;
+  position: unset;
   width: 90%;
 }
 #restaurant-name {
@@ -311,7 +311,7 @@ nav h1 a {
 	}
 	.inside #footer {
 	  bottom: 0;
-	  position: absolute;
+	  position: unset;
 	  width: 50%;
 		box-sizing: border-box;
 	}
